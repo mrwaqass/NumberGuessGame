@@ -1,0 +1,11 @@
+{
+  "name": "guessnumberjs",
+  "version": "1.0.0",
+  "description": "Number guess game with pure javascript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Waqas Ayub",
+  "license": "ISC"
+}

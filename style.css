@@ -1,0 +1,120 @@
+:root {
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* color: #eee; */
+  color: #222325;
+  /* background-color: #222; */
+  /* background: cadetblue; */
+  background: #4b79a1;
+  text-align: center;
+}
+#container {
+  background: #fff;
+  padding: 80px 40px 50px 40px;
+  border: 1px solid #e4e5e7;
+  color: #222325;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  margin: 0 auto 0px auto;
+  border-radius: 5px;
+  box-shadow: var(--dark-shadow);
+}
+.number {
+  font-size: 5rem;
+  position: relative;
+  text-align: center;
+  background: #222325;
+  padding: 5px 50px;
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 50px;
+  position: relative;
+  top: 55px;
+  border-radius: 5px;
+  box-shadow: var(--light-shadow);
+}
+.info {
+  position: absolute;
+  right: 380px;
+  top: 180px;
+  font-weight: bold;
+}
+.again {
+  position: absolute;
+  top: 180px;
+  left: 380px;
+}
+.btn-again {
+  background-color: grey;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(201, 199, 199);
+  cursor: pointer;
+}
+.highlights-div {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+input {
+  margin: 5px 0 5px 0;
+  padding: 10px 50px 15px 10px;
+  width: 70%;
+  border: 1.3px solid #dddddd;
+  font-weight: 800;
+  font-size: 1.5rem;
+  border-radius: 3px;
+}
+
+.btn {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 10px;
+  transition: all 0.4s ease-in-out;
+  background: linear-gradient(to right, darkorange, orange, red);
+  /*    background-position: 200%;*/
+  background-size: 200%;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-position-x: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
